@@ -4,7 +4,6 @@ Version: 0.0.5
 Release: 1
 License: None
 Group: None
-Source0: testapp
 
 %description
 Simple
