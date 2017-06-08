@@ -4,6 +4,8 @@ Version: 0.0.6
 Release: 1
 License: None
 Group: None
+Source: %{name}-%{version}.tar.gz
+
 
 %description
 Simple
