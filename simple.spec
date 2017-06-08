@@ -11,6 +11,7 @@ Source: %{name}-%{version}.tar.gz
 Simple
 
 %prep
+%setup -q
 
 %build
 make tester 
