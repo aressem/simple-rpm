@@ -1,6 +1,6 @@
 Summary: A test package to see how rpmbuild works
 Name: simple
-Version: 0.0.8
+Version: 6.1.2
 Release: 1
 License: None
 Group: None
@@ -27,6 +27,9 @@ rm ./generated-appfile
 /generated-appfile
 
 %changelog
+* Sun Jun 11 2017 Arnstein Ressem <aressem@yahoo-inc.com> 6.1.2-1
+- 
+
 * Thu Jun 08 2017 Arnstein Ressem <aressem@yahoo-inc.com> 0.0.8-1
 - Setup (aressem@yahoo-inc.com)
 
