@@ -17,14 +17,14 @@ Simple
 make tester 
 
 %install
-cp ./generated-appfile %{buildroot}/generated-appfile
+cp ./generated-appfile2 %{buildroot}/generated-appfile2
 
 
 %clean
-rm ./generated-appfile
+rm ./generated-appfile2
 
 %files
-/generated-appfile
+/generated-appfile2
 
 %changelog
 * Sun Jun 11 2017 Arnstein Ressem <aressem@yahoo-inc.com> 6.1.10-1
