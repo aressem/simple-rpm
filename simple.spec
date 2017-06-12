@@ -1,6 +1,6 @@
 Summary: A test package to see how rpmbuild works
 Name: simple
-Version: 6.1.10
+Version: 6.100.10
 Release: 1
 License: None
 Group: None
