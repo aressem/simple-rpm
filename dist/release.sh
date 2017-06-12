@@ -7,14 +7,14 @@ if [ $# -ne 1 ]; then
 fi
 
 readonly VERSION=$1
+readonly RPM_BRANCH="rpmbuild"
+readonly CURRENT_BRANCH=$(git branch | grep "^\*" | cut -d' ' -f2)
 
-git checkout master
-git push origin :rpmbuild &> /dev/null || true
-git branch -D rpmbuild &> /dev/null || true 
-git checkout -b rpmbuild $VERSION
+git checkout $RPM_BRANCH
+git reset --hard $VERSION
 git mv dist/simple.spec .
 tito init
 tito tag --use-version=$VERSION --no-auto-changelog
-git push -u origin --follow-tags rpmbuild
-git checkout master
+git push --follow-tags
+git checkout $CURRENT_BRANCH
 
