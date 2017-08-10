@@ -24,3 +24,4 @@ RUN yum-config-manager --add-repo https://copr.fedorainfracloud.org/coprs/g/vesp
                    vespa-zookeeper-c-client \
                    vespa-cppunit 
 
+
