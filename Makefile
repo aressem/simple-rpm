@@ -1,2 +1,2 @@
 tester:
-	touch generated-appfile2
+	touch generated-appfile3
